@@ -1,0 +1,9 @@
+name: 'AI Form'
+type: module
+description: 'Form that uses an AI agent to create blog posts.'
+core_version_requirement: ^11
+package: Custom
+dependencies:
+  - ai_agents
+  - node
+  - ai

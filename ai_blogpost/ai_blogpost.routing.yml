@@ -1,0 +1,7 @@
+ai_blogpost.form:
+  path: '/admin/content/ai-blogpost'
+  defaults:
+    _form: '\Drupal\ai_blogpost\Form\AIBlogPost'
+    _title: 'Generate Blog Post via AI'
+  requirements:
+    _permission: 'administer nodes'
